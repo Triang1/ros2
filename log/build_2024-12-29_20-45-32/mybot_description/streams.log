@@ -1,0 +1,75 @@
+[0.009s] Invoking command in '/home/robot/mybot/mybot_ws/build/mybot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robot/mybot/mybot_ws/src/mybot_description -DCMAKE_INSTALL_PREFIX=/home/robot/mybot/mybot_ws/install/mybot_description
+[0.125s] -- The C compiler identification is GNU 11.4.0
+[0.207s] -- The CXX compiler identification is GNU 11.4.0
+[0.215s] -- Detecting C compiler ABI info
+[0.286s] -- Detecting C compiler ABI info - done
+[0.294s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.294s] -- Detecting C compile features
+[0.295s] -- Detecting C compile features - done
+[0.298s] -- Detecting CXX compiler ABI info
+[0.382s] -- Detecting CXX compiler ABI info - done
+[0.390s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.390s] -- Detecting CXX compile features
+[0.391s] -- Detecting CXX compile features - done
+[0.395s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.536s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.629s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.702s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.703s] -- Added test 'lint_cmake' to check CMake code style
+[0.703s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.706s] -- Added test 'xmllint' to check XML markup files
+[0.707s] -- Configuring done
+[0.709s] -- Generating done
+[0.711s] -- Build files have been written to: /home/robot/mybot/mybot_ws/build/mybot_description
+[0.714s] Invoked command in '/home/robot/mybot/mybot_ws/build/mybot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robot/mybot/mybot_ws/src/mybot_description -DCMAKE_INSTALL_PREFIX=/home/robot/mybot/mybot_ws/install/mybot_description
+[0.716s] Invoking command in '/home/robot/mybot/mybot_ws/build/mybot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/mybot/mybot_ws/build/mybot_description -- -j12 -l12
+[0.751s] Invoked command in '/home/robot/mybot/mybot_ws/build/mybot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/mybot/mybot_ws/build/mybot_description -- -j12 -l12
+[0.760s] Invoking command in '/home/robot/mybot/mybot_ws/build/mybot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robot/mybot/mybot_ws/build/mybot_description
+[0.766s] -- Install configuration: ""
+[0.766s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/launch
+[0.767s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/launch/display_robot.launch.py
+[0.767s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/launch/gazebo_sim.launch.py
+[0.767s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/urdf
+[0.767s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/urdf/kr210_robot.xacro
+[0.767s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/urdf/kr210_robot.urdf
+[0.768s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/urdf/kr210_robot.pdf
+[0.768s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/urdf/kr210_robot.gv
+[0.768s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/meshes
+[0.769s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/meshes/tool
+[0.769s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/meshes/tool/end_effector.stl
+[0.786s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/meshes/visual
+[0.786s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/meshes/visual/link_2.dae
+[0.792s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/meshes/visual/link_5.dae
+[0.795s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/meshes/visual/link_3.dae
+[0.797s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/meshes/visual/link_4.dae
+[0.799s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/meshes/visual/link_6.dae
+[0.801s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/meshes/visual/base_link.dae
+[0.802s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/meshes/visual/link_1.dae
+[0.804s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/meshes/collision
+[0.805s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/meshes/collision/link_6.stl
+[0.805s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/meshes/collision/base_link.stl
+[0.805s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/meshes/collision/link_5.stl
+[0.806s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/meshes/collision/link_2.stl
+[0.806s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/meshes/collision/link_4.stl
+[0.806s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/meshes/collision/link_3.stl
+[0.807s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/meshes/collision/link_1.stl
+[0.807s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/config
+[0.807s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/config/display_robot_model.rviz
+[0.807s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/world
+[0.807s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/world/empty.world
+[0.808s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/ament_index/resource_index/package_run_dependencies/mybot_description
+[0.808s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/ament_index/resource_index/parent_prefix_path/mybot_description
+[0.808s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/environment/ament_prefix_path.sh
+[0.808s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/environment/ament_prefix_path.dsv
+[0.808s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/environment/path.sh
+[0.808s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/environment/path.dsv
+[0.808s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/local_setup.bash
+[0.809s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/local_setup.sh
+[0.809s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/local_setup.zsh
+[0.809s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/local_setup.dsv
+[0.809s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/package.dsv
+[0.809s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/ament_index/resource_index/packages/mybot_description
+[0.809s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/cmake/mybot_descriptionConfig.cmake
+[0.810s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/cmake/mybot_descriptionConfig-version.cmake
+[0.810s] -- Installing: /home/robot/mybot/mybot_ws/install/mybot_description/share/mybot_description/package.xml
+[0.811s] Invoked command in '/home/robot/mybot/mybot_ws/build/mybot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robot/mybot/mybot_ws/build/mybot_description

@@ -1,0 +1,4 @@
+Invoking command in '/home/robot/mybot/mybot_ws/build/mybot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/mybot/mybot_ws/build/mybot_description -- -j12 -l12
+Invoked command in '/home/robot/mybot/mybot_ws/build/mybot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robot/mybot/mybot_ws/build/mybot_description -- -j12 -l12
+Invoking command in '/home/robot/mybot/mybot_ws/build/mybot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robot/mybot/mybot_ws/build/mybot_description
+Invoked command in '/home/robot/mybot/mybot_ws/build/mybot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robot/mybot/mybot_ws/build/mybot_description
